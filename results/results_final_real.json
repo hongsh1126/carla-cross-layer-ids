@@ -1,0 +1,1182 @@
+{
+  "Town03_Opt -> Town10HD_Opt": {
+    "CAN timing/ID only": {
+      "fpr": 0.01361573373676248,
+      "auc": 0.7645180856887296,
+      "auc_ci": [
+        0.6930881192190612,
+        0.845083012804524
+      ],
+      "recall": {
+        "CAN: dos": [
+          1.0,
+          126
+        ],
+        "CAN: fuzzy": [
+          1.0,
+          135
+        ],
+        "CAN: spoof_plain": [
+          0.9919354838709677,
+          124
+        ],
+        "CAN: spoof_stealth/brake": [
+          0.019230769230769232,
+          52
+        ],
+        "CAN: spoof_stealth/speed": [
+          0.0,
+          13
+        ],
+        "CAN: spoof_stealth/steer": [
+          0.0,
+          27
+        ],
+        "Combined": [
+          0.9324324324324325,
+          148
+        ],
+        "Sensor: cam_hide [in-band]": [
+          0.0,
+          40
+        ],
+        "Sensor: cam_hide [out-of-band]": [
+          0.0,
+          12
+        ],
+        "Sensor: cam_phantom": [
+          0.0,
+          84
+        ],
+        "Sensor: gps_drift": [
+          0.0,
+          79
+        ],
+        "Sensor: lidar_hide [in-band]": [
+          0.0,
+          30
+        ],
+        "Sensor: lidar_hide [out-of-band]": [
+          0.0,
+          36
+        ],
+        "Sensor: lidar_phantom": [
+          0.0,
+          53
+        ]
+      },
+      "group_auc": {
+        "CAN: dos": 1.0,
+        "CAN: fuzzy": 1.0,
+        "CAN: spoof_plain": 0.9998901956956713,
+        "CAN: spoof_stealth/brake": 0.35738391714185963,
+        "CAN: spoof_stealth/speed": 0.5673513324799255,
+        "CAN: spoof_stealth/steer": 0.7317756485683868,
+        "Combined": 0.9697837020076052,
+        "Sensor: cam_hide [in-band]": 0.5251323751891075,
+        "Sensor: cam_hide [out-of-band]": 0.3994894099848714,
+        "Sensor: cam_phantom": 0.43729288235717895,
+        "Sensor: gps_drift": 0.4718541144028036,
+        "Sensor: lidar_hide [in-band]": 0.4613590519415028,
+        "Sensor: lidar_hide [out-of-band]": 0.46259875609346107,
+        "Sensor: lidar_phantom": 0.5403476721947877
+      },
+      "recall_oracle": {
+        "CAN: dos": 1.0,
+        "CAN: fuzzy": 1.0,
+        "CAN: spoof_plain": 0.9919354838709677,
+        "CAN: spoof_stealth/brake": 0.0,
+        "CAN: spoof_stealth/speed": 0.0,
+        "CAN: spoof_stealth/steer": 0.0,
+        "Combined": 0.9324324324324325,
+        "Sensor: cam_hide [in-band]": 0.0,
+        "Sensor: cam_hide [out-of-band]": 0.0,
+        "Sensor: cam_phantom": 0.0,
+        "Sensor: gps_drift": 0.0,
+        "Sensor: lidar_hide [in-band]": 0.0,
+        "Sensor: lidar_hide [out-of-band]": 0.0,
+        "Sensor: lidar_phantom": 0.0
+      }
+    },
+    "CAN + signal plausibility": {
+      "fpr": 0.00832072617246596,
+      "auc": 0.8254319694462366,
+      "auc_ci": [
+        0.7371002546244825,
+        0.9228415553700293
+      ],
+      "recall": {
+        "CAN: dos": [
+          1.0,
+          126
+        ],
+        "CAN: fuzzy": [
+          1.0,
+          135
+        ],
+        "CAN: spoof_plain": [
+          0.9596774193548387,
+          124
+        ],
+        "CAN: spoof_stealth/brake": [
+          0.9423076923076923,
+          52
+        ],
+        "CAN: spoof_stealth/speed": [
+          0.8461538461538461,
+          13
+        ],
+        "CAN: spoof_stealth/steer": [
+          1.0,
+          27
+        ],
+        "Combined": [
+          0.9932432432432432,
+          148
+        ],
+        "Sensor: cam_hide [in-band]": [
+          0.0,
+          40
+        ],
+        "Sensor: cam_hide [out-of-band]": [
+          0.0,
+          12
+        ],
+        "Sensor: cam_phantom": [
+          0.0,
+          84
+        ],
+        "Sensor: gps_drift": [
+          0.0,
+          79
+        ],
+        "Sensor: lidar_hide [in-band]": [
+          0.0,
+          30
+        ],
+        "Sensor: lidar_hide [out-of-band]": [
+          0.0,
+          36
+        ],
+        "Sensor: lidar_phantom": [
+          0.0,
+          53
+        ]
+      },
+      "group_auc": {
+        "CAN: dos": 1.0,
+        "CAN: fuzzy": 0.9999719840869614,
+        "CAN: spoof_plain": 0.9996217851739788,
+        "CAN: spoof_stealth/brake": 0.9689136506458745,
+        "CAN: spoof_stealth/speed": 0.9986617013848482,
+        "CAN: spoof_stealth/steer": 1.0,
+        "Combined": 0.9995911191070042,
+        "Sensor: cam_hide [in-band]": 0.4413767019667171,
+        "Sensor: cam_hide [out-of-band]": 0.4264372163388805,
+        "Sensor: cam_phantom": 0.5319051221093581,
+        "Sensor: gps_drift": 0.5098479480648805,
+        "Sensor: lidar_hide [in-band]": 0.5301815431164902,
+        "Sensor: lidar_hide [out-of-band]": 0.4434673894772231,
+        "Sensor: lidar_phantom": 0.5421459766505865
+      },
+      "recall_oracle": {
+        "CAN: dos": 1.0,
+        "CAN: fuzzy": 1.0,
+        "CAN: spoof_plain": 0.9919354838709677,
+        "CAN: spoof_stealth/brake": 0.9423076923076923,
+        "CAN: spoof_stealth/speed": 1.0,
+        "CAN: spoof_stealth/steer": 1.0,
+        "Combined": 0.9932432432432432,
+        "Sensor: cam_hide [in-band]": 0.0,
+        "Sensor: cam_hide [out-of-band]": 0.0,
+        "Sensor: cam_phantom": 0.0,
+        "Sensor: gps_drift": 0.0,
+        "Sensor: lidar_hide [in-band]": 0.0,
+        "Sensor: lidar_hide [out-of-band]": 0.0,
+        "Sensor: lidar_phantom": 0.0
+      }
+    },
+    "Sensor only": {
+      "fpr": 0.0037821482602118004,
+      "auc": 0.6603342961575898,
+      "auc_ci": [
+        0.5990712578719543,
+        0.7197243243311606
+      ],
+      "recall": {
+        "CAN: dos": [
+          0.0,
+          126
+        ],
+        "CAN: fuzzy": [
+          0.0,
+          135
+        ],
+        "CAN: spoof_plain": [
+          0.0,
+          124
+        ],
+        "CAN: spoof_stealth/brake": [
+          0.0,
+          52
+        ],
+        "CAN: spoof_stealth/speed": [
+          0.0,
+          13
+        ],
+        "CAN: spoof_stealth/steer": [
+          0.0,
+          27
+        ],
+        "Combined": [
+          0.060810810810810814,
+          148
+        ],
+        "Sensor: cam_hide [in-band]": [
+          0.175,
+          40
+        ],
+        "Sensor: cam_hide [out-of-band]": [
+          0.0,
+          12
+        ],
+        "Sensor: cam_phantom": [
+          0.05952380952380952,
+          84
+        ],
+        "Sensor: gps_drift": [
+          0.02531645569620253,
+          79
+        ],
+        "Sensor: lidar_hide [in-band]": [
+          0.16666666666666666,
+          30
+        ],
+        "Sensor: lidar_hide [out-of-band]": [
+          0.0,
+          36
+        ],
+        "Sensor: lidar_phantom": [
+          0.07547169811320754,
+          53
+        ]
+      },
+      "group_auc": {
+        "CAN: dos": 0.5367378671085177,
+        "CAN: fuzzy": 0.48661959993276177,
+        "CAN: spoof_plain": 0.46580815967985945,
+        "CAN: spoof_stealth/brake": 0.44119486791574536,
+        "CAN: spoof_stealth/speed": 0.617130222273944,
+        "CAN: spoof_stealth/steer": 0.5636521544237125,
+        "Combined": 0.8194458641697674,
+        "Sensor: cam_hide [in-band]": 0.9486195158850227,
+        "Sensor: cam_hide [out-of-band]": 0.6331631366616237,
+        "Sensor: cam_phantom": 0.9147936027663712,
+        "Sensor: gps_drift": 0.8198883548133821,
+        "Sensor: lidar_hide [in-band]": 0.9004286434694907,
+        "Sensor: lidar_hide [out-of-band]": 0.46100184905026054,
+        "Sensor: lidar_phantom": 0.8292609825022121
+      },
+      "recall_oracle": {
+        "CAN: dos": 0.007936507936507936,
+        "CAN: fuzzy": 0.0,
+        "CAN: spoof_plain": 0.008064516129032258,
+        "CAN: spoof_stealth/brake": 0.019230769230769232,
+        "CAN: spoof_stealth/speed": 0.07692307692307693,
+        "CAN: spoof_stealth/steer": 0.0,
+        "Combined": 0.3581081081081081,
+        "Sensor: cam_hide [in-band]": 0.5,
+        "Sensor: cam_hide [out-of-band]": 0.0,
+        "Sensor: cam_phantom": 0.5238095238095238,
+        "Sensor: gps_drift": 0.0379746835443038,
+        "Sensor: lidar_hide [in-band]": 0.4,
+        "Sensor: lidar_hide [out-of-band]": 0.0,
+        "Sensor: lidar_phantom": 0.5471698113207547
+      }
+    },
+    "Fused (CAN + sensor)": {
+      "fpr": 0.0007564296520423601,
+      "auc": 0.9474167020298186,
+      "auc_ci": [
+        0.9039692590590769,
+        0.9818836800698661
+      ],
+      "recall": {
+        "CAN: dos": [
+          0.9920634920634921,
+          126
+        ],
+        "CAN: fuzzy": [
+          0.9851851851851852,
+          135
+        ],
+        "CAN: spoof_plain": [
+          0.9435483870967742,
+          124
+        ],
+        "CAN: spoof_stealth/brake": [
+          0.019230769230769232,
+          52
+        ],
+        "CAN: spoof_stealth/speed": [
+          0.0,
+          13
+        ],
+        "CAN: spoof_stealth/steer": [
+          0.14814814814814814,
+          27
+        ],
+        "Combined": [
+          0.9391891891891891,
+          148
+        ],
+        "Sensor: cam_hide [in-band]": [
+          0.05,
+          40
+        ],
+        "Sensor: cam_hide [out-of-band]": [
+          0.0,
+          12
+        ],
+        "Sensor: cam_phantom": [
+          0.13095238095238096,
+          84
+        ],
+        "Sensor: gps_drift": [
+          0.0,
+          79
+        ],
+        "Sensor: lidar_hide [in-band]": [
+          0.16666666666666666,
+          30
+        ],
+        "Sensor: lidar_hide [out-of-band]": [
+          0.0,
+          36
+        ],
+        "Sensor: lidar_phantom": [
+          0.16981132075471697,
+          53
+        ]
+      },
+      "group_auc": {
+        "CAN: dos": 0.9999879931801263,
+        "CAN: fuzzy": 0.9999215554434919,
+        "CAN: spoof_plain": 0.9988226538480308,
+        "CAN: spoof_stealth/brake": 0.9615530082625392,
+        "CAN: spoof_stealth/speed": 0.9952868613988131,
+        "CAN: spoof_stealth/steer": 0.9970022973048691,
+        "Combined": 0.9992895694484196,
+        "Sensor: cam_hide [in-band]": 0.9806164901664145,
+        "Sensor: cam_hide [out-of-band]": 0.5598209783156832,
+        "Sensor: cam_phantom": 0.9522458756573735,
+        "Sensor: gps_drift": 0.9199812328845822,
+        "Sensor: lidar_hide [in-band]": 0.9772818961169943,
+        "Sensor: lidar_hide [out-of-band]": 0.2408177845015969,
+        "Sensor: lidar_phantom": 0.9316929751948163
+      },
+      "recall_oracle": {
+        "CAN: dos": 1.0,
+        "CAN: fuzzy": 1.0,
+        "CAN: spoof_plain": 0.9596774193548387,
+        "CAN: spoof_stealth/brake": 0.8846153846153846,
+        "CAN: spoof_stealth/speed": 1.0,
+        "CAN: spoof_stealth/steer": 1.0,
+        "Combined": 0.9864864864864865,
+        "Sensor: cam_hide [in-band]": 0.8,
+        "Sensor: cam_hide [out-of-band]": 0.0,
+        "Sensor: cam_phantom": 0.4166666666666667,
+        "Sensor: gps_drift": 0.02531645569620253,
+        "Sensor: lidar_hide [in-band]": 0.6333333333333333,
+        "Sensor: lidar_hide [out-of-band]": 0.0,
+        "Sensor: lidar_phantom": 0.4716981132075472
+      }
+    },
+    "CAN timing/ID + IAT": {
+      "fpr": 0.00529500756429652,
+      "auc": 0.770355372070314,
+      "auc_ci": [
+        0.6990806788325494,
+        0.8521876496571305
+      ],
+      "recall": {
+        "CAN: dos": [
+          1.0,
+          126
+        ],
+        "CAN: fuzzy": [
+          1.0,
+          135
+        ],
+        "CAN: spoof_plain": [
+          0.9516129032258065,
+          124
+        ],
+        "CAN: spoof_stealth/brake": [
+          0.0,
+          52
+        ],
+        "CAN: spoof_stealth/speed": [
+          0.0,
+          13
+        ],
+        "CAN: spoof_stealth/steer": [
+          0.0,
+          27
+        ],
+        "Combined": [
+          0.9324324324324325,
+          148
+        ],
+        "Sensor: cam_hide [in-band]": [
+          0.0,
+          40
+        ],
+        "Sensor: cam_hide [out-of-band]": [
+          0.0,
+          12
+        ],
+        "Sensor: cam_phantom": [
+          0.0,
+          84
+        ],
+        "Sensor: gps_drift": [
+          0.0,
+          79
+        ],
+        "Sensor: lidar_hide [in-band]": [
+          0.0,
+          30
+        ],
+        "Sensor: lidar_hide [out-of-band]": [
+          0.0,
+          36
+        ],
+        "Sensor: lidar_phantom": [
+          0.0,
+          53
+        ]
+      },
+      "group_auc": {
+        "CAN: dos": 1.0,
+        "CAN: fuzzy": 0.9999775872695692,
+        "CAN: spoof_plain": 0.9990605631740764,
+        "CAN: spoof_stealth/brake": 0.33029791690911214,
+        "CAN: spoof_stealth/speed": 0.5251367392063307,
+        "CAN: spoof_stealth/steer": 0.6436235781924132,
+        "Combined": 0.9710103446865928,
+        "Sensor: cam_hide [in-band]": 0.5537065052950075,
+        "Sensor: cam_hide [out-of-band]": 0.4879601613716591,
+        "Sensor: cam_phantom": 0.45776150853684894,
+        "Sensor: gps_drift": 0.5041795132040062,
+        "Sensor: lidar_hide [in-band]": 0.4999495713565305,
+        "Sensor: lidar_hide [out-of-band]": 0.5310661455706841,
+        "Sensor: lidar_phantom": 0.5358090942825336
+      },
+      "recall_oracle": {
+        "CAN: dos": 1.0,
+        "CAN: fuzzy": 1.0,
+        "CAN: spoof_plain": 0.967741935483871,
+        "CAN: spoof_stealth/brake": 0.0,
+        "CAN: spoof_stealth/speed": 0.0,
+        "CAN: spoof_stealth/steer": 0.0,
+        "Combined": 0.9324324324324325,
+        "Sensor: cam_hide [in-band]": 0.0,
+        "Sensor: cam_hide [out-of-band]": 0.0,
+        "Sensor: cam_phantom": 0.0,
+        "Sensor: gps_drift": 0.0,
+        "Sensor: lidar_hide [in-band]": 0.0,
+        "Sensor: lidar_hide [out-of-band]": 0.0,
+        "Sensor: lidar_phantom": 0.0
+      }
+    },
+    "Fused + IAT": {
+      "fpr": 0.0007564296520423601,
+      "auc": 0.9470743762018871,
+      "auc_ci": [
+        0.9058508913306254,
+        0.9814047091729675
+      ],
+      "recall": {
+        "CAN: dos": [
+          0.9920634920634921,
+          126
+        ],
+        "CAN: fuzzy": [
+          0.9851851851851852,
+          135
+        ],
+        "CAN: spoof_plain": [
+          0.9435483870967742,
+          124
+        ],
+        "CAN: spoof_stealth/brake": [
+          0.0,
+          52
+        ],
+        "CAN: spoof_stealth/speed": [
+          0.07692307692307693,
+          13
+        ],
+        "CAN: spoof_stealth/steer": [
+          0.0,
+          27
+        ],
+        "Combined": [
+          0.9391891891891891,
+          148
+        ],
+        "Sensor: cam_hide [in-band]": [
+          0.05,
+          40
+        ],
+        "Sensor: cam_hide [out-of-band]": [
+          0.0,
+          12
+        ],
+        "Sensor: cam_phantom": [
+          0.10714285714285714,
+          84
+        ],
+        "Sensor: gps_drift": [
+          0.0,
+          79
+        ],
+        "Sensor: lidar_hide [in-band]": [
+          0.16666666666666666,
+          30
+        ],
+        "Sensor: lidar_hide [out-of-band]": [
+          0.0,
+          36
+        ],
+        "Sensor: lidar_phantom": [
+          0.1320754716981132,
+          53
+        ]
+      },
+      "group_auc": {
+        "CAN: dos": 0.9999879931801263,
+        "CAN: fuzzy": 0.9999159522608843,
+        "CAN: spoof_plain": 0.9982736323263871,
+        "CAN: spoof_stealth/brake": 0.9603892703363203,
+        "CAN: spoof_stealth/speed": 0.9944722448504597,
+        "CAN: spoof_stealth/steer": 0.9968622177396762,
+        "Combined": 0.9991975712474955,
+        "Sensor: cam_hide [in-band]": 0.9813729198184569,
+        "Sensor: cam_hide [out-of-band]": 0.5414145234493193,
+        "Sensor: cam_phantom": 0.9508770981917729,
+        "Sensor: gps_drift": 0.9184109232271779,
+        "Sensor: lidar_hide [in-band]": 0.9730458900655572,
+        "Sensor: lidar_hide [out-of-band]": 0.2505673222390318,
+        "Sensor: lidar_phantom": 0.9323494990437587
+      },
+      "recall_oracle": {
+        "CAN: dos": 1.0,
+        "CAN: fuzzy": 1.0,
+        "CAN: spoof_plain": 0.9596774193548387,
+        "CAN: spoof_stealth/brake": 0.6923076923076923,
+        "CAN: spoof_stealth/speed": 1.0,
+        "CAN: spoof_stealth/steer": 1.0,
+        "Combined": 0.9864864864864865,
+        "Sensor: cam_hide [in-band]": 0.775,
+        "Sensor: cam_hide [out-of-band]": 0.0,
+        "Sensor: cam_phantom": 0.38095238095238093,
+        "Sensor: gps_drift": 0.012658227848101266,
+        "Sensor: lidar_hide [in-band]": 0.6,
+        "Sensor: lidar_hide [out-of-band]": 0.0,
+        "Sensor: lidar_phantom": 0.41509433962264153
+      }
+    }
+  },
+  "Town10HD_Opt -> Town03_Opt": {
+    "CAN timing/ID only": {
+      "fpr": 0.01008533747090768,
+      "auc": 0.6939880999169523,
+      "auc_ci": [
+        0.5769791360279208,
+        0.8090603062308951
+      ],
+      "recall": {
+        "CAN: dos": [
+          1.0,
+          137
+        ],
+        "CAN: fuzzy": [
+          1.0,
+          127
+        ],
+        "CAN: spoof_plain": [
+          1.0,
+          106
+        ],
+        "CAN: spoof_stealth/brake": [
+          0.0,
+          39
+        ],
+        "CAN: spoof_stealth/speed": [
+          0.0,
+          6
+        ],
+        "CAN: spoof_stealth/steer": [
+          0.0,
+          38
+        ],
+        "Combined": [
+          0.6267605633802817,
+          142
+        ],
+        "Sensor: cam_hide [in-band]": [
+          0.0,
+          11
+        ],
+        "Sensor: cam_hide [out-of-band]": [
+          0.0,
+          21
+        ],
+        "Sensor: cam_phantom": [
+          0.0,
+          81
+        ],
+        "Sensor: gps_drift": [
+          0.0,
+          73
+        ],
+        "Sensor: lidar_hide [in-band]": [
+          0.0,
+          8
+        ],
+        "Sensor: lidar_hide [out-of-band]": [
+          0.0,
+          31
+        ],
+        "Sensor: lidar_phantom": [
+          0.011363636363636364,
+          88
+        ]
+      },
+      "group_auc": {
+        "CAN: dos": 1.0,
+        "CAN: fuzzy": 1.0,
+        "CAN: spoof_plain": 0.9998316670813999,
+        "CAN: spoof_stealth/brake": 0.3688508285094787,
+        "CAN: spoof_stealth/speed": 0.42080424101370567,
+        "CAN: spoof_stealth/steer": 0.571352741823527,
+        "Combined": 0.8112195281854042,
+        "Sensor: cam_hide [in-band]": 0.5900980323012907,
+        "Sensor: cam_hide [out-of-band]": 0.26545125420222393,
+        "Sensor: cam_phantom": 0.33530155446369564,
+        "Sensor: gps_drift": 0.3721266352806147,
+        "Sensor: lidar_hide [in-band]": 0.3286462373933282,
+        "Sensor: lidar_hide [out-of-band]": 0.22789609349583323,
+        "Sensor: lidar_phantom": 0.3438668100712321
+      },
+      "recall_oracle": {
+        "CAN: dos": 1.0,
+        "CAN: fuzzy": 1.0,
+        "CAN: spoof_plain": 1.0,
+        "CAN: spoof_stealth/brake": 0.0,
+        "CAN: spoof_stealth/speed": 0.0,
+        "CAN: spoof_stealth/steer": 0.0,
+        "Combined": 0.6267605633802817,
+        "Sensor: cam_hide [in-band]": 0.0,
+        "Sensor: cam_hide [out-of-band]": 0.0,
+        "Sensor: cam_phantom": 0.012345679012345678,
+        "Sensor: gps_drift": 0.0,
+        "Sensor: lidar_hide [in-band]": 0.0,
+        "Sensor: lidar_hide [out-of-band]": 0.0,
+        "Sensor: lidar_phantom": 0.011363636363636364
+      }
+    },
+    "CAN + signal plausibility": {
+      "fpr": 0.0031031807602792862,
+      "auc": 0.7914858186689815,
+      "auc_ci": [
+        0.6589167254146342,
+        0.9023725582531575
+      ],
+      "recall": {
+        "CAN: dos": [
+          1.0,
+          137
+        ],
+        "CAN: fuzzy": [
+          1.0,
+          127
+        ],
+        "CAN: spoof_plain": [
+          0.9716981132075472,
+          106
+        ],
+        "CAN: spoof_stealth/brake": [
+          0.9230769230769231,
+          39
+        ],
+        "CAN: spoof_stealth/speed": [
+          0.5,
+          6
+        ],
+        "CAN: spoof_stealth/steer": [
+          1.0,
+          38
+        ],
+        "Combined": [
+          0.9225352112676056,
+          142
+        ],
+        "Sensor: cam_hide [in-band]": [
+          0.0,
+          11
+        ],
+        "Sensor: cam_hide [out-of-band]": [
+          0.0,
+          21
+        ],
+        "Sensor: cam_phantom": [
+          0.0,
+          81
+        ],
+        "Sensor: gps_drift": [
+          0.0,
+          73
+        ],
+        "Sensor: lidar_hide [in-band]": [
+          0.0,
+          8
+        ],
+        "Sensor: lidar_hide [out-of-band]": [
+          0.0,
+          31
+        ],
+        "Sensor: lidar_phantom": [
+          0.0,
+          88
+        ]
+      },
+      "group_auc": {
+        "CAN: dos": 1.0,
+        "CAN: fuzzy": 1.0,
+        "CAN: spoof_plain": 0.9985728296031734,
+        "CAN: spoof_stealth/brake": 0.971772990392075,
+        "CAN: spoof_stealth/speed": 0.9804758210499095,
+        "CAN: spoof_stealth/steer": 0.9992446204728268,
+        "Combined": 0.997251936756302,
+        "Sensor: cam_hide [in-band]": 0.6579801114324,
+        "Sensor: cam_hide [out-of-band]": 0.3275702833499575,
+        "Sensor: cam_phantom": 0.3863076937811874,
+        "Sensor: gps_drift": 0.3771480493533269,
+        "Sensor: lidar_hide [in-band]": 0.8833397982932506,
+        "Sensor: lidar_hide [out-of-band]": 0.34071172952276085,
+        "Sensor: lidar_phantom": 0.3964666055434093
+      },
+      "recall_oracle": {
+        "CAN: dos": 1.0,
+        "CAN: fuzzy": 1.0,
+        "CAN: spoof_plain": 0.9811320754716981,
+        "CAN: spoof_stealth/brake": 0.9230769230769231,
+        "CAN: spoof_stealth/speed": 0.6666666666666666,
+        "CAN: spoof_stealth/steer": 1.0,
+        "Combined": 0.9225352112676056,
+        "Sensor: cam_hide [in-band]": 0.0,
+        "Sensor: cam_hide [out-of-band]": 0.0,
+        "Sensor: cam_phantom": 0.0,
+        "Sensor: gps_drift": 0.0,
+        "Sensor: lidar_hide [in-band]": 0.375,
+        "Sensor: lidar_hide [out-of-band]": 0.0,
+        "Sensor: lidar_phantom": 0.011363636363636364
+      }
+    },
+    "Sensor only": {
+      "fpr": 0.030256012412723042,
+      "auc": 0.6726622761899229,
+      "auc_ci": [
+        0.5904165763352477,
+        0.7436759079495227
+      ],
+      "recall": {
+        "CAN: dos": [
+          0.051094890510948905,
+          137
+        ],
+        "CAN: fuzzy": [
+          0.007874015748031496,
+          127
+        ],
+        "CAN: spoof_plain": [
+          0.03773584905660377,
+          106
+        ],
+        "CAN: spoof_stealth/brake": [
+          0.15384615384615385,
+          39
+        ],
+        "CAN: spoof_stealth/speed": [
+          0.0,
+          6
+        ],
+        "CAN: spoof_stealth/steer": [
+          0.0,
+          38
+        ],
+        "Combined": [
+          0.5070422535211268,
+          142
+        ],
+        "Sensor: cam_hide [in-band]": [
+          0.45454545454545453,
+          11
+        ],
+        "Sensor: cam_hide [out-of-band]": [
+          0.0,
+          21
+        ],
+        "Sensor: cam_phantom": [
+          0.8148148148148148,
+          81
+        ],
+        "Sensor: gps_drift": [
+          0.1643835616438356,
+          73
+        ],
+        "Sensor: lidar_hide [in-band]": [
+          1.0,
+          8
+        ],
+        "Sensor: lidar_hide [out-of-band]": [
+          0.06451612903225806,
+          31
+        ],
+        "Sensor: lidar_phantom": [
+          0.8863636363636364,
+          88
+        ]
+      },
+      "group_auc": {
+        "CAN: dos": 0.4691409059249234,
+        "CAN: fuzzy": 0.4725783889116266,
+        "CAN: spoof_plain": 0.45964035305999973,
+        "CAN: spoof_stealth/brake": 0.7483937061128683,
+        "CAN: spoof_stealth/speed": 0.18269976726144296,
+        "CAN: spoof_stealth/steer": 0.4480421379282185,
+        "Combined": 0.8498289972574001,
+        "Sensor: cam_hide [in-band]": 0.9463996050497214,
+        "Sensor: cam_hide [out-of-band]": 0.48930510916546605,
+        "Sensor: cam_phantom": 0.9660517771456484,
+        "Sensor: gps_drift": 0.8535181780503097,
+        "Sensor: lidar_hide [in-band]": 0.9865690457719161,
+        "Sensor: lidar_hide [out-of-band]": 0.47098275732625944,
+        "Sensor: lidar_phantom": 0.9777840468298188
+      },
+      "recall_oracle": {
+        "CAN: dos": 0.0072992700729927005,
+        "CAN: fuzzy": 0.0,
+        "CAN: spoof_plain": 0.0,
+        "CAN: spoof_stealth/brake": 0.0,
+        "CAN: spoof_stealth/speed": 0.0,
+        "CAN: spoof_stealth/steer": 0.0,
+        "Combined": 0.11971830985915492,
+        "Sensor: cam_hide [in-band]": 0.18181818181818182,
+        "Sensor: cam_hide [out-of-band]": 0.0,
+        "Sensor: cam_phantom": 0.2345679012345679,
+        "Sensor: gps_drift": 0.136986301369863,
+        "Sensor: lidar_hide [in-band]": 0.375,
+        "Sensor: lidar_hide [out-of-band]": 0.03225806451612903,
+        "Sensor: lidar_phantom": 0.14772727272727273
+      }
+    },
+    "Fused (CAN + sensor)": {
+      "fpr": 0.0395655546935609,
+      "auc": 0.9416974535462725,
+      "auc_ci": [
+        0.9119250528901526,
+        0.9710003373018167
+      ],
+      "recall": {
+        "CAN: dos": [
+          1.0,
+          137
+        ],
+        "CAN: fuzzy": [
+          1.0,
+          127
+        ],
+        "CAN: spoof_plain": [
+          0.9622641509433962,
+          106
+        ],
+        "CAN: spoof_stealth/brake": [
+          0.6410256410256411,
+          39
+        ],
+        "CAN: spoof_stealth/speed": [
+          0.0,
+          6
+        ],
+        "CAN: spoof_stealth/steer": [
+          0.18421052631578946,
+          38
+        ],
+        "Combined": [
+          0.9154929577464789,
+          142
+        ],
+        "Sensor: cam_hide [in-band]": [
+          0.7272727272727273,
+          11
+        ],
+        "Sensor: cam_hide [out-of-band]": [
+          0.0,
+          21
+        ],
+        "Sensor: cam_phantom": [
+          0.6666666666666666,
+          81
+        ],
+        "Sensor: gps_drift": [
+          0.1643835616438356,
+          73
+        ],
+        "Sensor: lidar_hide [in-band]": [
+          1.0,
+          8
+        ],
+        "Sensor: lidar_hide [out-of-band]": [
+          0.06451612903225806,
+          31
+        ],
+        "Sensor: lidar_phantom": [
+          0.8181818181818182,
+          88
+        ]
+      },
+      "group_auc": {
+        "CAN: dos": 0.9998018041485223,
+        "CAN: fuzzy": 0.9992608565511933,
+        "CAN: spoof_plain": 0.995645300584042,
+        "CAN: spoof_stealth/brake": 0.9377772473195282,
+        "CAN: spoof_stealth/speed": 0.9193173002327385,
+        "CAN: spoof_stealth/steer": 0.9358131558531705,
+        "Combined": 0.9888438466329396,
+        "Sensor: cam_hide [in-band]": 0.9618449820156569,
+        "Sensor: cam_hide [out-of-band]": 0.3339983006391074,
+        "Sensor: cam_phantom": 0.9589020103630913,
+        "Sensor: gps_drift": 0.8923557605449695,
+        "Sensor: lidar_hide [in-band]": 0.9926299456943367,
+        "Sensor: lidar_hide [out-of-band]": 0.4329938186641308,
+        "Sensor: lidar_phantom": 0.975077579519007
+      },
+      "recall_oracle": {
+        "CAN: dos": 0.9927007299270073,
+        "CAN: fuzzy": 0.9606299212598425,
+        "CAN: spoof_plain": 0.9433962264150944,
+        "CAN: spoof_stealth/brake": 0.05128205128205128,
+        "CAN: spoof_stealth/speed": 0.0,
+        "CAN: spoof_stealth/steer": 0.0,
+        "Combined": 0.6338028169014085,
+        "Sensor: cam_hide [in-band]": 0.2727272727272727,
+        "Sensor: cam_hide [out-of-band]": 0.0,
+        "Sensor: cam_phantom": 0.24691358024691357,
+        "Sensor: gps_drift": 0.1506849315068493,
+        "Sensor: lidar_hide [in-band]": 0.75,
+        "Sensor: lidar_hide [out-of-band]": 0.03225806451612903,
+        "Sensor: lidar_phantom": 0.19318181818181818
+      }
+    },
+    "CAN timing/ID + IAT": {
+      "fpr": 0.0031031807602792862,
+      "auc": 0.704810784578422,
+      "auc_ci": [
+        0.5893384484341775,
+        0.8026188989901829
+      ],
+      "recall": {
+        "CAN: dos": [
+          1.0,
+          137
+        ],
+        "CAN: fuzzy": [
+          1.0,
+          127
+        ],
+        "CAN: spoof_plain": [
+          0.9716981132075472,
+          106
+        ],
+        "CAN: spoof_stealth/brake": [
+          0.0,
+          39
+        ],
+        "CAN: spoof_stealth/speed": [
+          0.0,
+          6
+        ],
+        "CAN: spoof_stealth/steer": [
+          0.0,
+          38
+        ],
+        "Combined": [
+          0.6267605633802817,
+          142
+        ],
+        "Sensor: cam_hide [in-band]": [
+          0.0,
+          11
+        ],
+        "Sensor: cam_hide [out-of-band]": [
+          0.0,
+          21
+        ],
+        "Sensor: cam_phantom": [
+          0.0,
+          81
+        ],
+        "Sensor: gps_drift": [
+          0.0,
+          73
+        ],
+        "Sensor: lidar_hide [in-band]": [
+          0.0,
+          8
+        ],
+        "Sensor: lidar_hide [out-of-band]": [
+          0.0,
+          31
+        ],
+        "Sensor: lidar_phantom": [
+          0.0,
+          88
+        ]
+      },
+      "group_auc": {
+        "CAN: dos": 1.0,
+        "CAN: fuzzy": 0.9999938913764561,
+        "CAN: spoof_plain": 0.9993193495030519,
+        "CAN: spoof_stealth/brake": 0.3332537645958903,
+        "CAN: spoof_stealth/speed": 0.31859322472200674,
+        "CAN: spoof_stealth/steer": 0.5143726266791883,
+        "Combined": 0.8158770309990275,
+        "Sensor: cam_hide [in-band]": 0.5886874955920728,
+        "Sensor: cam_hide [out-of-band]": 0.26458310244190775,
+        "Sensor: cam_phantom": 0.3661418076985701,
+        "Sensor: gps_drift": 0.4143702774796221,
+        "Sensor: lidar_hide [in-band]": 0.738411559348332,
+        "Sensor: lidar_hide [out-of-band]": 0.29017242673740584,
+        "Sensor: lidar_phantom": 0.3737613724522181
+      },
+      "recall_oracle": {
+        "CAN: dos": 1.0,
+        "CAN: fuzzy": 1.0,
+        "CAN: spoof_plain": 0.9811320754716981,
+        "CAN: spoof_stealth/brake": 0.0,
+        "CAN: spoof_stealth/speed": 0.0,
+        "CAN: spoof_stealth/steer": 0.0,
+        "Combined": 0.6267605633802817,
+        "Sensor: cam_hide [in-band]": 0.0,
+        "Sensor: cam_hide [out-of-band]": 0.0,
+        "Sensor: cam_phantom": 0.012345679012345678,
+        "Sensor: gps_drift": 0.0,
+        "Sensor: lidar_hide [in-band]": 0.0,
+        "Sensor: lidar_hide [out-of-band]": 0.0,
+        "Sensor: lidar_phantom": 0.011363636363636364
+      }
+    },
+    "Fused + IAT": {
+      "fpr": 0.027152831652443754,
+      "auc": 0.9406772999593302,
+      "auc_ci": [
+        0.911511072357584,
+        0.9699793028243175
+      ],
+      "recall": {
+        "CAN: dos": [
+          1.0,
+          137
+        ],
+        "CAN: fuzzy": [
+          1.0,
+          127
+        ],
+        "CAN: spoof_plain": [
+          0.9622641509433962,
+          106
+        ],
+        "CAN: spoof_stealth/brake": [
+          0.48717948717948717,
+          39
+        ],
+        "CAN: spoof_stealth/speed": [
+          0.0,
+          6
+        ],
+        "CAN: spoof_stealth/steer": [
+          0.05263157894736842,
+          38
+        ],
+        "Combined": [
+          0.8802816901408451,
+          142
+        ],
+        "Sensor: cam_hide [in-band]": [
+          0.7272727272727273,
+          11
+        ],
+        "Sensor: cam_hide [out-of-band]": [
+          0.0,
+          21
+        ],
+        "Sensor: cam_phantom": [
+          0.5679012345679012,
+          81
+        ],
+        "Sensor: gps_drift": [
+          0.1643835616438356,
+          73
+        ],
+        "Sensor: lidar_hide [in-band]": [
+          1.0,
+          8
+        ],
+        "Sensor: lidar_hide [out-of-band]": [
+          0.06451612903225806,
+          31
+        ],
+        "Sensor: lidar_phantom": [
+          0.7045454545454546,
+          88
+        ]
+      },
+      "group_auc": {
+        "CAN: dos": 0.9997451767623858,
+        "CAN: fuzzy": 0.9991814444451232,
+        "CAN: spoof_plain": 0.9960844299369117,
+        "CAN: spoof_stealth/brake": 0.9285273815917726,
+        "CAN: spoof_stealth/speed": 0.9237134729764676,
+        "CAN: spoof_stealth/steer": 0.9424686619574538,
+        "Combined": 0.9880625880964609,
+        "Sensor: cam_hide [in-band]": 0.9602228648000565,
+        "Sensor: cam_hide [out-of-band]": 0.33377664487051606,
+        "Sensor: cam_phantom": 0.9587200337135687,
+        "Sensor: gps_drift": 0.8893588530983985,
+        "Sensor: lidar_hide [in-band]": 0.9901086113266098,
+        "Sensor: lidar_hide [out-of-band]": 0.42410971245526663,
+        "Sensor: lidar_phantom": 0.9726796671133366
+      },
+      "recall_oracle": {
+        "CAN: dos": 0.9927007299270073,
+        "CAN: fuzzy": 0.9606299212598425,
+        "CAN: spoof_plain": 0.9622641509433962,
+        "CAN: spoof_stealth/brake": 0.05128205128205128,
+        "CAN: spoof_stealth/speed": 0.0,
+        "CAN: spoof_stealth/steer": 0.0,
+        "Combined": 0.6338028169014085,
+        "Sensor: cam_hide [in-band]": 0.45454545454545453,
+        "Sensor: cam_hide [out-of-band]": 0.0,
+        "Sensor: cam_phantom": 0.2716049382716049,
+        "Sensor: gps_drift": 0.136986301369863,
+        "Sensor: lidar_hide [in-band]": 0.5,
+        "Sensor: lidar_hide [out-of-band]": 0.03225806451612903,
+        "Sensor: lidar_phantom": 0.19318181818181818
+      }
+    }
+  }
+}
